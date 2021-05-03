@@ -23,7 +23,7 @@ The idea is to train a supervised DNN model on sample set (x,y) where x is the s
   2) Pre-Processed Samples (i.e X and Y matrices)
   3) Model 
 
-The raw audio samples and ground truth images for both single and multi object problems are provieded. 
+The raw audio samples and ground truth images for both single and multi object problems are provided [here](). 
 
 The data pre-processing notebook takes the raw audio and image files as an input. The input files are expected to come from a directory with two sub folder named Recording and Images for audio and image files respectively. 
 
