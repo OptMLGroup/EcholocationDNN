@@ -16,4 +16,4 @@ The repository contains the following:
   2) Pre-Processed Samples (i.e X and Y matrices)
   3) Model 
 
-Contributors: Ved Patel (vedpatel97@gmail.com), Dr. Martin Takáč (mat614@lehigh.edu), and Dr. Joshus C. Agar (joshua.agar@lehigh.edu)
+Contributors: Ved Patel (vedpatel97@gmail.com), Dr. Martin Takáč (mat614@lehigh.edu), and Dr. Joshua C. Agar (joshua.agar@lehigh.edu)
