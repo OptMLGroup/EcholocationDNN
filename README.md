@@ -22,11 +22,11 @@ The idea is to train a supervised DNN model on sample set (x,y) where x is the s
 Respeaker Core v2.0 is used to collect the audio samples and the Realsense camera to capture the ground truth location. The Respeaker is accessed via a client server HTTPS protocol. The speaker is pinged on the server at the time of recording and a compressed recording file is sent back to the client. The file is decompressed on the client end and saved as a .npy file. The Reaslsense casmera returns both RGD and depth images. For this experiment, we only consider the RGB output to get the ground truth location. The data collection module saves the recorded sample(.npy) and RGB output into folders Recording and Images respectively. Both server and data collection files are attached in the repository.
   
 The data collection process can be broken down into following sequence of operations:
-    1) Play a high bass sound on the sub-wwofer to move the dice randomly in the box
-    2) Capture an image to get the present location of the dice
-    3) Start Recording and the emit the sound (done concurrently using threading)
-    4) ReSpeaker returns the recorded sample to the client
-    5) Repeat 
+  1) Play a high bass sound on the sub-wwofer to move the dice randomly in the box
+  2) Capture an image to get the present location of the dice
+  3) Start Recording and the emit the sound (done concurrently using threading)
+  4) ReSpeaker returns the recorded sample to the client
+  5) Repeat 
     
 ## Files:
   1) Raw Audio and Image Samples
